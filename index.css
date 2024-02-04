@@ -1,0 +1,135 @@
+.container{
+    border: 2px solid black;
+    width: 90vw;
+    height: 98vh;
+    margin-left: 4vw;
+    margin-right: 3vw;  
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+  
+    height: 100%;
+    width: 80vw;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 100px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: right;
+    font-family: Nanum Gothic Coding;
+}
+
+.sponsors{
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    right: 178px;
+}
+.logo_heading{
+    display: flex;
+
+}
+.logo{
+    width: 20vw;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.body{
+    border-top: 1px solid rgba(186, 185, 185, 0.922);
+    margin-top: 10px;
+    height: 70%;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.content{
+    font-family: Nanum Gothic Coding;
+    height: 7%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(186, 185, 185, 0.922);
+}
+.name_input{
+    display: flex;
+    font-family: Nanum Gothic Coding;
+    position: relative;
+    margin: 10px;
+    height: 40px;
+}
+.entry1{
+
+    font-size: 30px;
+
+    font-family: Nanum Gothic Coding;
+    left: 300px;
+    position: absolute;
+    top: 8px;
+}
+#input1{
+    width: 460px;
+    font-size: 30px;
+    position: relative;
+    left: 900px;
+    padding-left:40px;
+    font-family: Nanum Gothic Coding;
+}
+#input1:hover{
+    cursor: pointer;
+}
+#input1::placeholder{
+    margin-left: 50px;
+}
+.entry2{
+   
+    font-size: 30px;
+    font-family: Nanum Gothic Coding;
+    left: 300px;
+    position: absolute;
+    top: 8px;
+}
+#input2{
+    width: 460px;
+    font-size: 30px;
+    padding-left: 40px;
+    position: relative;
+    left: 900px;
+    font-family: Nanum Gothic Coding;
+}
+#input2:hover{
+    cursor: pointer;
+}
+#input2::placeholder{
+    margin-left: 50px;
+}
+#submit_button{
+    display: flex;
+    border: none;
+    position: relative;
+    left: 900px;
+    margin: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(233, 226, 226);
+    margin-top: 40px;
+    font-family: Nanum Gothic Coding;
+}
+#submit_button:hover{
+    cursor: pointer;
+}
+#submit_button:active{
+    border: 2px solid rgba(100, 98, 98, 0.833);
+}
+#para{
+    margin-top: 80px;
+  
+    font-size: 30px;
+    font-family: Nanum Gothic Coding;
+    padding-left: 20px;
+}
